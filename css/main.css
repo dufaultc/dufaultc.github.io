@@ -5,12 +5,10 @@ th,
 tr,
 p,
 a {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato';
   font-size: 14px
 }
-
-.name,
-head {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+.name {
+  font-family: 'Lato';
   font-size: 30px;
 }
