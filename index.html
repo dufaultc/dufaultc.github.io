@@ -1,60 +1,65 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <html lang="en">
 <head>
 	<title>Cameron Dufault Personal Page</title>
 	<meta name="author" content="Cameron Dufault">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
-<body>
-	<br>
-	<table style="margin-left: auto;margin-right: auto;width:60%;">
-		<tbody>
-			<tr style="padding-bottom: 1em">
-				<td colspan="2">
-					<div style="text-align:center; vertical-align: bottom" class="name">Cameron Dufault</div>
-				</td>
+<body class="container">
+	<header class="text-center my-4">
+		<h1 class="name">Cameron Dufault</h1>
+	</header>
 
-			</tr>
-			<tr style="margin-bottom: 0%; padding-bottom: 1em;">
-				<td colspan="2">
-					<p style="text-align:center">
-						<a href="data/CameronDufaultCVDec26.pdf">CV</a>&nbsp;&nbsp;&nbsp;&nbsp;<a
-							href="https://www.linkedin.com/in/cameron-dufault/">LinkedIn</a>&nbsp;&nbsp;&nbsp;&nbsp;<a
-							href="https://github.com/dufaultc">GitHub</a>
-					</p>
+	<nav class="text-center mb-4">
+		<a href="data/CameronDufaultCVDec26.pdf" class="mx-2">CV</a>
+		<a href="https://www.linkedin.com/in/cameron-dufault/" class="mx-2">LinkedIn</a>
+		<a href="https://github.com/dufaultc" class="mx-2">GitHub</a>
+	</nav>
 
-					<br>
-				</td>
-			</tr>
-			<tr style="padding-bottom: 1em;">
-				<td valign="center">
-					<p>
-						I'm a 1st year PhD<s>MSc</s> Computer Science student at the <a
-							href="https://web.cs.toronto.edu" />University of Toronto</a>, researching methods of
-						representation learning of biological data supervised by <a
-							href="https://www.moseslab.csb.utoronto.ca/" />Dr. Alan Moses</a>.
-					</p>
-					<p>
-						I recently helped author a <a href="https://www.biorxiv.org/content/10.1101/2025.04.01.646674v1">review of  genomic language models </a> (now published in Nature Machine Intelligence)
-						. Building upon this, my MSc research 
-						 project <a href="https://arxiv.org/abs/2311.07621"><i>Unsupervised Whole-Genome Representation Learning Captures Bacterial Phenotypes</i></a> demonstrated that using long-context language modeling, 
-						biologically informed tokenization of genomes at the level of protein domains, and a novel multi-task pretraining scheme, we can learn representations of 
-						whole bacterial genomes which are more predictive of their phenotypes than standard approaches. 
-						
-					</p>
-				</td>
-				<td style="width:40%">
-					<img style="width:100%;padding:20%;margin-left:auto;margin-right:auto" alt="me" src="images/me.jpg">
-				</td>
-			</tr>
+	<main class="row">
+		<section class="col-md-8">
+			<h4>About Me</h4>
+			<p>
+				I'm a Computer Science PhD student at the <a href="https://web.cs.toronto.edu">University of
+					Toronto</a> supervised by <a href="https://www.moseslab.csb.utoronto.ca/">Dr. Alan Moses</a>. I am
+				interested in a
+				lot of things but especially in the intersection of biology and machine learning.
+				My recently completed MSc research (<a href="https://arxiv.org/abs/2311.07621"><i>Unsupervised
+						Whole-Genome Representation Learning Captures Bacterial Phenotypes</i></a>) developed in me an
+				intense interest in microbiology. During my PhD I hope to demonstrate how deep learning can
+				transform this field.
 
+			</p>
+			<p>
+				I joined the Moses lab in September 2023 and began my PhD upon completing the MSc program in January
+				2025.
+				Prior to this I completed my undergraduate degree in Software Engineering at McMaster University,
+				during which I interned as a Data Scientist at the Royal Bank of Canada and a Machine Learning Software
+				Engineer
+				at <a href="https://rbcborealis.com/">Borealis AI</a>. While I have always been interested in working
+				with data,
+				I discovered my interest in computational biology late, and am thankful for being exposed to the field
+				through
+				undergraduate research in the labs of Dr. Nathan Magarvey at McMaster and Dr. Kieran Campbell at the
+				Lunenfeld-Tanenbaum
+				Research Institute.
+			</p>
+			<p>
+				I also do things other than research sometimes too which at some point I will add to this page!
+			</p>
+		</section>
+		<aside class="col-md-4 text-center">
+			<img src="images/close.jpg" alt="Cameron Dufault" class="img-fluid rounded-circle">
+		</aside>
+	</main>
 
-		</tbody>
-	</table>
+	<footer class="text-center mt-4">
+
+	</footer>
 </body>
 </html>
